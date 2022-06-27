@@ -1,0 +1,82 @@
+h1 {
+    font-size: 5.3rem;
+}
+
+h2 {
+    font-size: 1.65rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h5 {
+    font-size: 1.35rem;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.allS {
+    font-family: "Segoe UI";
+    margin-top: 2rem;
+}
+
+.s1 {
+    text-align: center;
+}
+
+.s2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2em;
+}
+
+.s3 {
+    margin-top: 2rem;
+}
+
+.centrar {
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+    width: 35em;
+    height: auto;
+    margin-bottom: 0.4em;
+}
+
+.elemento {
+    font-weight: bold;
+}
+
+li {
+    text-align: justify;
+    font-size: 1.3em;
+    margin-left: 1em;
+}
+
+i {
+    font-size: 1.1em;
+}
+
+.table {
+    font-size: 1.3em;
+}
+
+.formula {
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+}

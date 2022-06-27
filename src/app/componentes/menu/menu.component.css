@@ -1,0 +1,32 @@
+.content {
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    margin-top: 70px;
+    padding: 25px;
+    background-color: rgba(174, 200, 144, 0.586);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color:#d2d2d2;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    text-align: justify;
+    padding: 15vh 0 5vh;
+    overflow: auto;
+    z-index: 1;
+    background: var(--lightpurple);
+}

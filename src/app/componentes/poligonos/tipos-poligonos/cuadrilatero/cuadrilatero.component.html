@@ -1,0 +1,109 @@
+<div class="allS">
+
+    <div class="s1">
+      <section>
+        <div class="o-grid">
+          <div class="o-module-header">
+            <h1 class="o-module-header__title">Cuadriláteros</h1>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="s2">
+      <a href="assets/acueducto-de-segovia.jpg" target="blank"><img class="image" src="assets/acueducto-de-segovia.jpg"></a>
+      <br> <i>Acueducto de Segovia</i>
+    </div> -->
+  
+    <div class="s3">
+      <section class="c-section-salient-list">
+        <div class="o-grid">
+          <div class="container">
+            <div class="o-grid__row">
+                <section>
+                    <p>Figuras geométricas formadas por cuatro lados, cuatro vértices y cuatro ángulos interiores.</p>
+                    <h2>Propiedades</h2>
+                    <div class="s2">
+                        <a href="assets/cuadrilatero-elementos.png" target="blank"><img class="image" src="assets/cuadrilatero-elementos.png"></a>
+                        <figcaption>Elementos de un cuadrilátero</figcaption>
+                      </div>
+                    <ul>
+                        <li>Tienen dos diagonales y un incentro. Este último es el punto central de la circunferencia insctita. Las diagonales se 
+                            cruzan en un punto interior solo si es convexo.</li>
+                        <li>La suma de sus cuatro ángulos interiores, si se trata de un cuadrilátero convexo, es siempre 360º. 
+                            <p class="formula">$$ \alpha + \beta + \gamma + \delta = 360º = 2\pi \text &#123; radianes&#125; $$</p>
+                        </li>
+                        <li>En el caso de un cuadrado el área es tan sencillo como elevar la longitud del lado al cuadrado. En otros casos es 
+                            más complicado. Existe una fórmula que se puede aplicar a todo tipo de cuadriláteros:
+                            <p class="formula">$$ A = \sqrt &#123;(s - a) * (s - b) * (s - c) * (s - d) - abcd * cos^2\theta&#125; $$
+                                $$ \theta = \frac &#123;\alpha + \gamma&#125; &#123;2&#125; $$
+                                $$ s = \frac &#123;Perímetro&#125; &#123;2&#125; $$
+                            </p>
+                            Donde a, b, c y d son cada uno de los lados y \alpha y \beta son dos ángulos interiores opuestos del cuadrilátero.
+                        </li>
+                    </ul>
+                    <h2>Clasificación por el paralelismo de sus lados</h2>
+                    <p>A pesar de tener una fórmula para calcular el área que se aplica a todos los cuadriláteros, cada uno de ellos dispone
+                        de una propia. </p>
+                    <div class="s2">
+                        <a href="assets/cuadrilateros-lados.png" target="blank"><img class="image-lados" src="assets/cuadrilateros-lados.png"></a>
+                        <figcaption>Tipos de cuadriláteros según sus lados</figcaption>
+                    </div>
+                    <ul>
+                        <li>Paralelogramo: Sus lados opuestos son paralelos entre sí y tienen la misma longitud. Existen distintos tipos 
+                            dentro de este grupo: 
+                            <ul>
+                                <li>Cuadrado: Sus cuatro lados son iguales, sus dos diagonales son iguales y perpendiculares entre ellas y sus 
+                                    ángulos interiores son rectos, es decir, miden 90º. 
+                                    <p class="formula">$$ P = 4 \cdot l $$</p>
+                                    <p class="formula">$$ A = l^2 $$</p>    
+                                </li>
+                                <li>Rectángulo: Sus lados opuestos son iguales y paralelos, sus dos diagonales son iguales pero no son perpendiculares 
+                                    entre sí y sus ángulos interiores son rectos.
+                                    <p class="formula">$$ P = 2 \cdot base + 2 \cdot altura $$</p>
+                                    <p class="formula">$$ A = base \cdot altura $$</p>
+                                </li>
+                                <li>Rombo: Tiene sus cuatro lados iguales, sus diagonales son perperdiculares entre ellas pero no son iguales, dos de 
+                                    sus ángulos opuestos son agudos (menores a 90º) y miden lo mismo, los otros dos ángulos son obtusos (mayores a 90º) 
+                                    y miden igual.
+                                    <p class="formula">$$ P = 4 \cdot l $$</p>
+                                    <p class="formula">$$ A = \frac &#123;D \cdot d&#125; &#123;2&#125; $$</p>
+                                    <p class="formula">$$ (\frac &#123;D&#125; &#123;2&#125;)^2 + (\frac &#123;d&#125; &#123;2&#125;)^2 = l^2 $$</p>
+                                </li>
+                                <li>Romboide: Sus lados opuestos miden lo mismo, sus diagonales son distintas y no son perpendiculares entre sí, tiene 
+                                    dos ángulos agudos y dos obtusos, cada par son opuestos entre ellos.
+                                    <p class="formula">$$ P = 2 \cdot base + 2 \cdot c $$</p>
+                                    <p class="formula">$$ A = base \cdot altura $$</p>
+                                </li>
+                            </ul>
+                            El cálculo del perímetro y del área de un paralelogramo es:
+                            <p class="formula">$$ P = 2 \cdot base + 2 \cdot c $$</p>
+                            <p class="formula">$$ A = base \cdot altura $$</p>
+                        </li>
+                        <li>Trapecio: Posee dos lados no consecutivos paralelos, denominados base del trapecio, que tienen una longitud diferente. Los 
+                            segmentos que unen estos dos lados son la altura del trapecio.
+                            <p class="formula">$$ P = B + b + c + d $$</p>
+                            <p class="formula">$$ A = \frac &#123;B + b&#125; &#123;2&#125; \cdot a $$</p>
+                        </li>
+                        <li>Trapezoide: Ninguno de sus lados es paralelo a otro.
+                            <p class="formula">$$ P = B + b + c + d $$</p>
+                            Para calcular el área se utiliza la suma de las áreas de los dos triángulos en los que se puede dividir.
+                        </li>
+                    </ul>
+                    <h2>Clasificación por sus ángulos</h2>
+                    <p>Para esta clasificación se utiliza la de los <a href="poligonos">polígonos</a>. Por tanto:</p>
+                    <div class="s2">
+                        <a href="assets/cuadrilateros-angulos.png" target="blank"><img class="image-angulos" src="assets/cuadrilateros-angulos.png"></a>
+                        <figcaption>Tipos de cuadriláteros según sus ángulos</figcaption>
+                    </div>
+                    <ul>
+                        <li>Convexos: No tiene ningún ángulo interior mayor a 180º.</li>
+                        <li>Cóncavos: Tiene al menos un ángulo interior mayor a 180º.</li>
+                    </ul>
+                </section>
+            </div>
+          </div>
+        </div> 
+      </section> 
+    </div>
+</div>

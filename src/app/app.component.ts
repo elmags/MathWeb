@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MathWeb';
+
+  inicio: boolean;
+
+  constructor() {  }
+
+  ngOnInit(): void {
+  }
+
+  // if ((window.location.href).includes('inicio')) {
+  //   return this.inicio = true;
+  // }
+  // else {
+  //   return this.inicio = false;
+  // }
+  // console.log()
+  // console.log(inicio)
 }
+

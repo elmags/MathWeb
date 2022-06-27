@@ -1,0 +1,79 @@
+<div class="allS">
+
+    <div class="s1">
+      <section>
+        <div class="o-grid">
+          <div class="o-module-header">
+            <h1 class="o-module-header__title">Poliedros</h1>
+          </div>
+        </div>
+      </section>
+    </div>
+  
+    <div class="s3">
+      <section class="c-section-salient-list">
+        <div class="o-grid">
+          <div class="container">
+            <div class="o-grid__row">
+                <section> <!-- Definición poliedro --> 
+                    <p>Un poliedro es un cuerpo geométrico tridimensional cuyas caras son planas y cierran un volumen finito. Las caras son 
+                        <a href="poligonos">polígonos</a>. </p>            
+                </section>
+                <section>  <!-- Elementos de un poliedro -->
+                    <h2>Elementos de un poliedro</h2>
+                    <div class="s4">
+                      <a href="assets/poliedros-elementos.png" target="blank"><img class="image-elementos" src="assets/poliedros-elementos.png"></a>
+                      <figcaption>Elementos de un poliedro</figcaption>
+                    </div>
+                    <ul>
+                        <li>Caras: Superficies planas que limitan el volumen del poliedro. Estas superficies son polígonos, es decir, son
+                            bidimensionales y figuras cerradas. De las caras de un poliedro se puede destacar la base, que indica la superficie
+                            sobre la que se apoya el cuerpo. </li>
+                        <li>Aristas: Segmentos que constituyen el cuerpo de un poliedro.</li>
+                        <li>Vértices: Puntos de intersección entre tres o más aristas.</li>
+                    </ul>
+                </section>
+                <section> <!-- Tipos de poliedros -->
+                    <h2>Tipos de poliedros según la forma y relación de sus caras</h2>
+                    <p>Los poliedros pueden pertecener a varios tipos al mismo tiempo, estos son:</p>
+                    <div class="s4">
+                        <a href="assets/poliedros-tipos.png" target="blank"><img class="image" src="assets/poliedros-tipos.png"></a>
+                        <figcaption>Tipos de poliedros según la forma y relación de sus caras</figcaption>
+                    </div>
+                    <ul>
+                        <li>Regulares: Todas sus caras son poligonos regulares.</li>
+                        <li>Uniformes: Todas sus caras son iguales.</li>
+                        <li>De aristas uniformes: Todos los pares de caras que se unen en una arista son iguales.</li>
+                        <li>De vértices uniformes: En cada vértice covergen el mismo de número de caras y en igual orden.</li>
+                        <li>Irregulares: Tienen al menos una cara distinta.</li>
+                    </ul>
+                    <h2>Tipos de poliedros según el número de caras</h2>
+                    <div class="s4">
+                        <a href="assets/poliedros-lados.png" target="blank"><img class="image" src="assets/poliedros-lados.png"></a>
+                        <figcaption>Tipos de poliedros según el número de caras</figcaption>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Número de lados</th>
+                                <th scope="col">Polígono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let p of _poliedros">
+                                <td>{{p.nCaras}}</td>
+                                <td>{{p.name}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section> <!-- Poliedros -->
+                    <h4>Tipos de polígonos</h4>
+                    <p>En este caso, solo se van a exponer las <a href="piramides">pirámides</a>, puesto que es el único poliedro que aparece en las obras arquitectónicas.</p>
+                </section>
+            </div>
+          </div>
+        </div> 
+      </section> 
+    </div>
+</div>

@@ -1,0 +1,96 @@
+h1 {
+    font-size: 5.3rem;
+}
+
+h2 {
+    font-size: 1.65rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h5 {
+    font-size: 1.35rem;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+.allS {
+    font-family: "Segoe UI";
+    margin-top: 2rem;
+}
+
+.s1 {
+    text-align: center;
+}
+
+.s2 {
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2em;
+}
+
+.s2 img:first-child {
+    margin-right: 10px;
+}
+
+.s3 {
+    margin-top: 2rem;
+}
+
+.s4 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2em;
+}
+
+.centrar {
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+    width: 13em;
+    height: auto;
+    margin-bottom: 0.4em;
+}
+
+.image-lados {
+    width: auto;
+    height: 20em;
+    margin-bottom: 0.4em;
+}
+
+.elemento {
+    font-weight: bold;
+}
+
+li {
+    text-align: justify;
+    font-size: 1.3em;
+    margin-left: 1em;
+}
+
+ul li ul {
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.formula {
+    text-align: center;
+    font-size: 1em;
+    font-style: normal;
+}
