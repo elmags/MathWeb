@@ -4,7 +4,7 @@
     border-style: solid;
     margin-top: 70px;
     padding: 25px;
-    background-color: rgba(174, 200, 144, 0.586);
+    background-color: #aec89095;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-    background-color:#d2d2d2;
+    background-color: #9bb38095;
 }
 
 .menu {

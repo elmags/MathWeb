@@ -63,7 +63,7 @@ p {
     list-style-type: none;
     width: 100px;
     height: 5px;
-    background: #fff;
+    background: rgb(216, 216, 216);
 }
 
 .timeline ol li:first-child {
@@ -84,7 +84,7 @@ p {
     height: 12px;
     transform: translateY(-50%);
     border-radius: 50%;
-    background: #ffffff;
+    background: rgb(216, 216, 216);
 }
 
 .timeline ol li div {
@@ -94,7 +94,7 @@ p {
     padding: 15px;
     font-size: 1rem;
     color: rgb(0, 0, 0);
-    background: white;
+    background: rgb(216, 216, 216);
 }
 
 .timeline ol li div::before {
@@ -115,7 +115,7 @@ p {
 .timeline ol li:nth-child(odd) div::before {
     top: 100%;
     border-width: 8px 8px 0 0;
-    border-color: white transparent transparent transparent;
+    border-color: rgb(216, 216, 216) transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -125,7 +125,7 @@ p {
 .timeline ol li:nth-child(even) div::before {
     top: -8px;
     border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent rgb(216, 216, 216);
 }
 
 .timeline time {

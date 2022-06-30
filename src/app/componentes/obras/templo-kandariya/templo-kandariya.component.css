@@ -64,6 +64,12 @@ p {
     margin-bottom: 0.4em;
 }
 
+.image-naturaleza {
+    width: 30em;
+    height: auto;
+    margin-bottom: 0.4em;
+}
+
 .elemento {
     font-weight: bold;
 }

@@ -70,6 +70,24 @@ p {
     margin-bottom: 0.4em;
 }
 
+.image-tipos {
+    width: 35em;
+    height: auto;
+    margin-bottom: 0.4em;
+}
+
+.image-naturaleza {
+    width: 30em;
+    height: auto;
+    margin-bottom: 0.4em;
+}
+
 .elemento {
     font-weight: bold;
+}
+
+li {
+    text-align: justify;
+    font-size: 1.3em;
+    margin-left: 1em;
 }

@@ -13,11 +13,9 @@ export class InicioComponent implements OnInit {
   ngOnInit(): void {  }  
 
   public random() {
-    let obras: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    let nRandom: number = Math.floor(Math.random()*obras.length);
-    let obraRandom: number = obras[nRandom];
+    let nRandom: number = Math.floor(Math.random()*10);
 
-    switch (obraRandom) {
+    switch (nRandom) {
       case 1: 
         this.router.navigate(['acueductoSegovia']);
         break;

@@ -9,9 +9,12 @@ import { Poligono } from './poligono/Poligono';
 export class PoligonosComponent implements OnInit {
 
   nLados: string[] = ["3", "4", "5", "6", "7", "8", "100", "1000", "10000", "infinito"];
-  names: string[] = ["triángulo", "cuadrilátero", "pentágono", "hexágono", "heptágono", "octógono", "hectágono", "chiliágono", "miriágono", "apeirógono"];
-  regularNames: string[] = ["triángulo equilatero", "cuadrado", "pentágono regular", "hexágono regular", "heptágono regular", "octógono regular",
-                  "hectágono regular", "chiliágono regular", "miriágono regular", "apeirógono regular"];
+  names: string[] = ["triángulo", "cuadrilátero", "pentágono", "hexágono", "heptágono", 
+                     "octógono", "hectágono", "chiliágono", "miriágono", "apeirógono"];
+  regularNames: string[] = ["triángulo equilatero", "cuadrado", "pentágono regular", 
+                            "hexágono regular", "heptágono regular", "octógono regular",
+                            "hectágono regular", "chiliágono regular", "miriágono regular",
+                            "apeirógono regular"];
   _poligonos: Poligono[] = [];
 
   constructor() { this.poligonos(); }
